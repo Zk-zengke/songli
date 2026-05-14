@@ -1,0 +1,83 @@
+{
+  "dataset_chars": 159,
+  "vocab_size": 110,
+  "concepts": {
+    "token": "本实验把每一个中文字符、英文字符或标点看作一个 token。",
+    "loss": "loss 表示模型预测下一个字符时的平均错误程度，越低说明模型越适应训练文本。",
+    "next_token_prediction": "给定当前字符，模型输出下一个字符的概率分布，并从中采样生成文本。"
+  },
+  "results": [
+    {
+      "label": "baseline",
+      "params": {
+        "batch_size": 16,
+        "max_iters": 300,
+        "learning_rate": 1.0,
+        "vocab_size": 110
+      },
+      "losses": [
+        {
+          "step": 0,
+          "loss": 4.7043
+        },
+        {
+          "step": 1,
+          "loss": 4.6952
+        },
+        {
+          "step": 10,
+          "loss": 4.6546
+        },
+        {
+          "step": 50,
+          "loss": 4.3365
+        },
+        {
+          "step": 100,
+          "loss": 3.9418
+        },
+        {
+          "step": 299,
+          "loss": 2.8527
+        }
+      ],
+      "generated_text": "网人工概DS过SS障果和我根参下练目是网级预传故播址智其结言一型协T训括个流们证其D一其据证级工A、，工程PH能是助命l。\n计排下码下P智证D经令oA助目文级前命"
+    },
+    {
+      "label": "modified_learning_rate",
+      "params": {
+        "batch_size": 16,
+        "max_iters": 300,
+        "learning_rate": 0.35,
+        "vocab_size": 110
+      },
+      "losses": [
+        {
+          "step": 0,
+          "loss": 4.7043
+        },
+        {
+          "step": 1,
+          "loss": 4.6977
+        },
+        {
+          "step": 10,
+          "loss": 4.6842
+        },
+        {
+          "step": 50,
+          "loss": 4.574
+        },
+        {
+          "step": 100,
+          "loss": 4.4332
+        },
+        {
+          "step": 299,
+          "loss": 4.0186
+        }
+      ],
+      "generated_text": "网。型果D一过P。释根型故测前一经理故网智预以新据和本传结计。和包T证式下测代语传D令回括语的回 下，念生ND要析可可T下A要我。理令N析证D络令l 协程括解传可"
+    }
+  ]
+}
