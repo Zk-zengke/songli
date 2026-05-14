@@ -1,0 +1,182 @@
+﻿# 课程章节索引
+# 请保持与 /chapters 目录一致
+
+-
+  id: ch01
+  title: "设置 Python 环境"
+  stage: "第一阶段 底层实现"
+  folder: "chapters/ch01-python-setup"
+  slides: "slides/"
+  tutorial: "tutorial/"
+  status: draft
+
+-
+  id: ch02
+  title: "文本数据处理"
+  stage: "第一阶段 底层实现"
+  folder: "chapters/ch02-text-data-processing"
+  slides: "slides/"
+  tutorial: "tutorial/"
+  status: draft
+
+-
+  id: ch03
+  title: "注意力机制"
+  stage: "第一阶段 底层实现"
+  folder: "chapters/ch03-attention-mechanisms"
+  slides: "slides/"
+  tutorial: "tutorial/"
+  status: draft
+
+-
+  id: ch04
+  title: "从头实现 GPT 模型"
+  stage: "第一阶段 底层实现"
+  folder: "chapters/ch04-gpt-from-scratch"
+  slides: "slides/"
+  tutorial: "tutorial/"
+  status: draft
+
+-
+  id: ch05
+  title: "在无标签数据上进行预训练"
+  stage: "第一阶段 底层实现"
+  folder: "chapters/ch05-pretraining-unlabeled"
+  slides: "slides/"
+  tutorial: "tutorial/"
+  status: draft
+
+-
+  id: ch06
+  title: "针对分类任务的微调"
+  stage: "第一阶段 底层实现"
+  folder: "chapters/ch06-classification-finetuning"
+  slides: "slides/"
+  tutorial: "tutorial/"
+  status: draft
+
+-
+  id: ch07
+  title: "指令微调"
+  stage: "第二阶段 对齐、微调与安全"
+  folder: "chapters/ch07-instruction-finetuning"
+  slides: "slides/"
+  tutorial: "tutorial/"
+  status: draft
+
+-
+  id: ch08
+  title: "RLHF 与安全对齐"
+  stage: "第二阶段 对齐、微调与安全"
+  folder: "chapters/ch08-rlhf-safety"
+  slides: "slides/"
+  tutorial: "tutorial/"
+  status: draft
+
+-
+  id: ch09
+  title: "知识编辑与模型鲁棒性"
+  stage: "第二阶段 对齐、微调与安全"
+  folder: "chapters/ch09-knowledge-editing"
+  slides: "slides/"
+  tutorial: "tutorial/"
+  status: draft
+
+-
+  id: ch10
+  title: "通用信息抽取（IE）与序列标注"
+  stage: "第二阶段 对齐、微调与安全"
+  folder: "chapters/ch10-information-extraction"
+  slides: "slides/"
+  tutorial: "tutorial/"
+  status: draft
+
+-
+  id: ch11
+  title: "文本生成任务：机器翻译、问答等"
+  stage: "第二阶段 对齐、微调与安全"
+  folder: "chapters/ch11-text-generation"
+  slides: "slides/"
+  tutorial: "tutorial/"
+  status: draft
+
+-
+  id: ch12
+  title: "复杂推理：思维链（CoT）与数学能力"
+  stage: "第三阶段 能力涌现与多模态"
+  folder: "chapters/ch12-reasoning-cot"
+  slides: "slides/"
+  tutorial: "tutorial/"
+  status: draft
+
+-
+  id: ch13
+  title: "代码生成"
+  stage: "第三阶段 能力涌现与多模态"
+  folder: "chapters/ch13-code-generation"
+  slides: "slides/"
+  tutorial: "tutorial/"
+  status: draft
+
+-
+  id: ch14
+  title: "多模态大模型（M-LLM）架构"
+  stage: "第三阶段 能力涌现与多模态"
+  folder: "chapters/ch14-multimodal-llm"
+  slides: "slides/"
+  tutorial: "tutorial/"
+  status: draft
+
+-
+  id: ch15
+  title: "模型量化、蒸馏与高效部署"
+  stage: "第四阶段 部署、智能体与未来"
+  folder: "chapters/ch15-efficient-deployment"
+  slides: "slides/"
+  tutorial: "tutorial/"
+  status: draft
+
+-
+  id: ch16
+  title: "MoE（Mixture of Experts）与可扩展训练/推理系统"
+  stage: "第四阶段 部署、智能体与未来"
+  folder: "chapters/ch16-moe-systems"
+  slides: "slides/"
+  tutorial: "tutorial/"
+  status: draft
+
+-
+  id: ch17
+  title: "RAG（检索增强生成）"
+  stage: "第四阶段 部署、智能体与未来"
+  folder: "chapters/ch17-rag"
+  slides: "slides/"
+  tutorial: "tutorial/"
+  status: draft
+
+-
+  id: ch18
+  title: "GUI 智能体（Agent）与工具调用"
+  stage: "第四阶段 部署、智能体与未来"
+  folder: "chapters/ch18-gui-agents"
+  slides: "slides/"
+  tutorial: "tutorial/"
+  status: draft
+
+-
+  id: ch19
+  title: "智能体安全与伦理展望"
+  stage: "第四阶段 部署、智能体与未来"
+  folder: "chapters/ch19-agent-safety"
+  slides: "slides/"
+  tutorial: "tutorial/"
+  status: draft
+
+-
+  id: ch20
+  title: "AI for Science"
+  stage: "第四阶段 部署、智能体与未来"
+  folder: "chapters/ch20-ai-for-science"
+  slides: "slides/"
+  tutorial: "tutorial/"
+  status: draft
